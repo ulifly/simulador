@@ -65,7 +65,7 @@ function hd_prueba(hd_test) {
 
 // funcion diagnsotico envia a html el diagnostico( cambiar por algo mas visual )
  function diagnostico(resultado) {
-     document.write(resultado);
+     diagg.innerHTML=resultado;
  }
 
 

@@ -22,6 +22,11 @@
     font-size: 25px;
 }
 
+.hero p img {
+    width: 20%;
+}
+
 .hero img {
     width: 100%;
 }
+

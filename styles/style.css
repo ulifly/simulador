@@ -1,1 +1,27 @@
 
+
+.hero {
+    background-color: yellow;
+    text-align: center;
+    padding-block-start: 50px;
+    border-radius: 10%;
+}
+
+.hero h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+}
+
+.hero h2 {
+    font-family: 'Bungee Outline', cursive;
+    font-size: 35px;
+}
+
+.hero p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.hero img {
+    width: 100%;
+}

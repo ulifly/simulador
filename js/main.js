@@ -1,5 +1,5 @@
 
-// cambiar los document write por id para agreagar formato, revisar linea 85
+// cambiar los document write por id para agreagar formato, revisar linea 87
 alert("iniciando prueba de diagnostico");
 let encnedido = confirm("su equipo enciende? (revisa que encienda alguna luz de encendido o escuches los ventiladores)");
 let resultado = "";
@@ -79,7 +79,7 @@ function calentemiento(so_overheat) {
         diagnostico_mem(so_roto);
     }
 }
-
+//funcion de simulador de daignostico de memoria
 function diagnostico_mem (so_roto) {
     if (so_roto == true) {
         alert("se realizara una prueba de memoria, si el equipo deja de responder o se reinicia, es probable que la memoria este dananda, contacte a soporte tecnico");
